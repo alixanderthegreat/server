@@ -138,7 +138,7 @@ func TestIndex(t *testing.T) {
 				expectedTime := now.Format("15:04:05")
 				nextSecond := now.Add(1 * time.Second).Format("15:04:05")
 
-				// Check if the body contains the current or the next minute's time string
+				// Check if the body contains the current or the next second's time string
 				if !strings.Contains(string(body), expectedTime) && !strings.Contains(string(body), nextSecond) {
 					t.Errorf("handler returned unexpected body: Current time not found within range; got %v want %v or %v", string(body), expectedTime, nextSecond)
 				}
