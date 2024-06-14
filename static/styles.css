@@ -1,0 +1,29 @@
+/* General body styles */
+body {
+    font-family: monospace;
+    background-color: #37474f; /* Dark background (Blue Grey 800) */
+    color: #eceff1; /* Light text color (Grey 50) */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Styles for the paragraph */
+p {
+    font-size: 64px;
+    color: #eceff1; /* Light text color (Grey 50) */
+    margin: 20px 0;
+}
+
+/* Styles for the clock div */
+#app {
+    border: 2px solid #cfd8dc; /* Matching border color (Blue Grey 100) */
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #607d8b; /* Darker background for contrast (Blue Grey 400) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
