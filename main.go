@@ -50,7 +50,6 @@ var (
 	}
 )
 
-// serveFile
 func serve(w http.ResponseWriter, r *http.Request, file string, mimeType string) {
 
 	log.Printf("request: %s %s %s", r.Method, r.URL, r.RemoteAddr)
